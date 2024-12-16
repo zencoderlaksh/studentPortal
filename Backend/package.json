@@ -1,9 +1,11 @@
 {
   "name": "backend",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node app.js",  // Start the app in production
+    "dev": "nodemon app.js", // For local development with hot reload
+    "build": "echo \"No build step defined for backend\"" // Placeholder build command, as there's no build step for simple Node.js app
   },
   "keywords": [],
   "author": "",
